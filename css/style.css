@@ -1,0 +1,317 @@
+
+body {
+  background-image: url(../image/dot-grid.png);
+  font-size: 14px;
+  color: black;
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+}
+.active{
+  font-weight:bold;   
+  color:red!important;
+}
+title{color:blue;
+  padding: 0;
+  border: 6px double #000;
+}
+table {
+  width:500px;
+  height: 120px;
+  font-size: 25px;
+  border-radius: 100px;
+  border-collapse: collapse;
+  border: double 5px skyblue;
+}
+th, td {color:#008080;
+  border: 1px solid #333;
+  text-align:center;
+}
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 5px;
+}
+header {
+  padding: 0 50px;
+  margin-top: 0;
+  background-color: #fff;
+  width: 1100px;
+}
+.container {
+  width: 1020px;
+  display:flex;
+  margin: 0 auto 10px auto;
+  background-color: #fff;
+}
+.main{
+  width: 1200px;
+}
+.header-title-area {
+  margin-top: 0;
+  height: 120px;
+  background-color: transparent;
+  background-image: linear-gradient(45deg, #f9dbdc 25%, transparent 25%, transparent 75%, #f9dbdc 75%, #f9dbdc),
+  linear-gradient(45deg, #f9dbdc 25%, transparent 25%, transparent 75%, #f9dbdc 75%, #f9dbdc);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+.logo {
+  margin: 0;
+  font-size: 50px;
+  letter-spacing : 20px;
+  padding: 1rem 1rem;
+  color: #e5004f;
+  float:left;
+}
+.mainPhoto{
+  width: 100%;
+}
+.text-title{
+  padding: 1rem 2rem;
+  background: #015dac;
+  background-image: radial-gradient(#0175d5 13%, transparent 13%), radial-gradient(#0175d5 13%, transparent 13%);
+  background-size: 40px 40px;
+  background-position: 0 0, 25px 25px;
+  color:#fff;
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.text-title1{
+  font-size: 30px;
+  padding: 1rem 1rem;
+  background-image: -webkit-linear-gradient(315deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  color:limegreen;
+  display        : inline-block;
+  letter-spacing : 3px;                /* 文字間 */
+  text-shadow    : 
+       2px  2px 1px #003366,
+      -2px  2px 1px #003366,
+       2px -2px 1px #003366,
+      -2px -2px 1px #003366,
+       2px  0px 1px #003366,
+       0px  2px 1px #003366,
+      -2px  0px 1px #003366,
+       0px -2px 1px #003366; 
+}
+.text-title2{
+  padding:1rem;
+  background-image: -webkit-linear-gradient(315deg, #704308 0%, #FFCE08 40%, #E1CE08 60%, #704308 100%);
+  background-image: linear-gradient(135deg, #704308 0%, #FFCE08 40%, #E1CE08 60%, #704308 100%);
+  grid-column:1/4;
+  display        : inline-block;
+  color          : red;            /* 文字の色 */
+  font-size      : 20pt;               /* 文字のサイズ */
+  letter-spacing : 20px;                /* 文字間 */
+  text-shadow    : 
+       2px  2px 1px #003366,
+      -2px  2px 1px #003366,
+       2px -2px 1px #003366,
+      -2px -2px 1px #003366,
+       2px  0px 1px #003366,
+       0px  2px 1px #003366,
+      -2px  0px 1px #003366,
+       0px -2px 1px #003366;        /* 文字の影 */
+}
+.text-title3{
+  padding: 1rem 2rem;
+  color: rgb(238, 111, 6);
+  background: rgb(135, 206, 167);
+  -webkit-box-shadow: 5px 5px 0 #007032;
+  box-shadow: 5px 5px 0 #007032;
+  font-size: 40px;
+} 
+.text-sub {
+  color: green;
+  padding: 40px 10px;
+  font-size: 24px;
+  text-align:right;
+  margin-top: 0;
+}
+.header-navigation {
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 0;
+}
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.header-navigation li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  font-weight: normal;
+  display: table;
+}
+.header-navigation li a {
+  color: #333;
+  text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  width: 90px;
+  padding: 0 30px;
+  border: solid 2px #a7bebb;
+  height: 70px;
+}
+.header-navigation li a:hover{
+  color:rgb(251, 255, 0);
+  text-decoration: underline;
+  background-color: #afeeee;
+}
+.card-contents {
+  /* color: darkorange; */
+  padding: 40px;
+  display: block;
+  margin-bottom: 50px;
+  background-color: #fff;
+  font-size: 20px;
+}
+.info-label {
+  border: 1px solid #ff1361;
+  color: #008080;
+  margin-right: 20px;
+  padding: 10px;
+}
+.kakomi-maru {
+  margin: 1em auto;
+  padding: 0.5em;
+  width: 90%; /* ボックス幅 */
+  background-color: #EEFFFF; /* ボックス背景色 */
+  color: #666; /* 文章色 */
+  box-shadow: 0 0 5px 1px #c0c0c0; /* 影 */
+  border-radius: 10px; /* 角の丸み */
+  text-align: center;
+ }
+.left-contents {
+  width: 60%;
+  margin-right: 20px;
+}
+.right-contents {
+  width: 40%;
+}
+.information-list {
+  list-style-type: none;
+  color:#455c4e;
+  font-size: 30px;
+  padding-left: 0;
+}
+.information-list li {
+  margin-bottom: 10px;
+}
+.staff-list-area{
+  margin-top: 100px;
+  display:grid;
+  grid-template-columns:320px 320px 320px;
+  grid-template-rows:80px 300px;
+}
+.staff-list {
+  background-color:#afeeee;
+  width: 315px;
+  margin-right: 35px;
+  text-align:center;
+}
+.staff-list img{
+  margin:0 auto;
+}
+.staff-list:last-child {
+  margin-right: 0;
+}
+.staff-image {
+  margin-bottom: 10px;
+  /*display: inline;*/
+}
+.acd-check{
+  display: none;
+}
+.acd-label{
+  background: #333;
+  color: orange;
+  display: block;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+.acd-content{
+  border: 1px solid #333;
+  height: 150px;
+  opacity: 1;
+  padding: 0 10px;
+  transition: .5s;
+  visibility: visible;
+}
+.acd-check:checked + .acd-label + .acd-content{
+  height: 130px;
+  opacity: 1;
+  padding: 10px;
+  visibility: visible;
+}
+.copyright {
+  color: #777;
+  text-align: center;
+}
+/* 足したやつ */
+.wrapper {
+  max-width: 1050px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  color: rgba(26, 2, 65, 0.644);
+  padding: 5px;
+  
+}
+#news dl {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: solid 1px #c8c8c8;
+  margin-bottom: 20px;
+}
+#news dt {
+  width: 20%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+#news dd {
+  width: 80%;
+  border-bottom: solid 1px #c8c8c8;
+  padding: 15px;
+}
+
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  
+}
+#contact dt {
+  width: 15%;
+}
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+#contact dd textarea {
+  height: 10rem;
+}
+#contact .button {
+  text-align: center;
+}
+#contact .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  padding: 15px 0;
+  border: solid 1px #24292e;
+}
+#contact .button input:hover {
+  background: #fff;
+  color: #24292e;
+}
